@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Birthday My Boy</title>
+       
+        <link rel="stylesheet" type="text/css" 
+
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css ">
+        <style type="text/css">
+        body{
+            background-color: #ffa45c;
+    
+        }
+     .tabi{
+         font-family: cursive;
+         color :red;
+         text-align: center;
+         text-transform: uppercase;
+            text-decoration: underline;
+            transition: 0.5s;
+     }
+     .tabi:hover{
+         color: green;
+         font-size: 40px;
+     }
+     .title{
+         text-transform: uppercase;
+            margin: 80px;
+            text-align: center;
+            background: linear-gradient(180deg, #f8011f 0%, #2602f2 110% );
+        -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 100px;
+            font-family: 'Concert One', cursive;
+           
+        }
+        .name{
+            padding-right: 10px;
+          /*  margin-left: 310px;*/
+            margin: 60px;
+            margin-top: 10px;
+            text-align: center;
+            background: linear-gradient(180deg, #f8011f 0%, #2602f2 110% );
+        -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            font-size: 80px;
+            font-family: 'Concert One', cursive;
+            display: inline-block;
+            }
+     .toop{
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         
+     }
+     .boy{
+         border: 2px solid yellow;
+         width: 380px;
+
+           transition: 1s;
+            padding: 15px 10px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            
+            
+     }
+     .boy:hover{
+         background-color: greenyellow;
+         border:10px solid yellow ;
+     }
+     .pics{
+         width: 90%;
+         height: 80%;
+     }
+     .happy{
+        width: 330px;
+    height: 275px;
+         
+     }
+     .heart{
+        text-shadow: 5px 5px 3px rgb(182, 119, 119);
+
+         text-align: center;
+         color: blue;
+         font-style: italic;
+     }
+     .born{
+         color: rgb(212, 27, 27);
+         font-family: sans-serif;
+     }
+   /*  .tab{
+         border: 4px solid #ffcdab;
+         padding: 6px;
+         margin-top: 10px;
+         border-radius: 10px;
+         height: 450px;
+         width: 350px;
+     }
+     .col{
+         border-right:5px dotted #ffcdab;
+     }*/
+     .wrapper{
+            position: relative;
+            width: 320px;
+            margin: 150px auto;
+            perspective: 1000px;
+            margin-bottom: 500px;
+        }
+        .img-area{
+            position: absolute;
+            width: 100%;
+            height:100% ;
+            transform-style: preserve-3d;
+            transform: rotateY(-360deg) translateZ(-300px);
+            animation: animate 25s steps(1000, end) infinite;
+        }
+        .single{
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 10px;
+            left: 10px;
+
+        }
+        .single .imges{
+            width: 300px;
+            height: 200px;
+            border: 5px solid #fff;
+        }
+        .single.img-one{
+            transform: rotateY(0deg) translateZ(300px);
+        }
+        .single.img-two{
+            transform: rotateY(60deg) translateZ(300px);
+        } 
+        .single.img-three{
+            transform: rotateY(120deg) translateZ(300px);
+        } 
+        .single.img-four{
+            transform: rotateY(180deg) translateZ(300px);
+        } 
+        .single.img-five{
+            transform: rotateY(240deg) translateZ(300px);
+        }  
+        .single.img-six{
+            transform: rotateY(300deg) translateZ(300px);
+        }
+        .imges{
+            filter: grayscale(90%);
+            transition: 1s;
+            cursor: pointer;
+        }
+        .imges:hover{
+            transition: 1s;
+            filter: grayscale(0);
+        }
+        @keyframes animate{
+            from{
+                transform: rotateY(-360deg);
+            }
+            to{
+                transform: rotateY(0deg);
+            }
+        }
+    .copy{
+            font-size: 30px;
+            text-align: center;
+        }
+        .link{
+            background: linear-gradient(180deg, #f8011f 0%, rgb(250, 9, 190) 110% );
+        -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+         
+        }
+        .love{
+            background: linear-gradient(180deg, #2602f2 0%, #f8011f 110%);
+        -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 35px;
+            font-family: 'Concert One', cursive;
+           margin-left: 800px;
+            margin-top: 10px;
+        }
+/*.btn{
+     
+         background-color:  rgb(211, 118, 31);
+         border: 5px solid rgb(211, 118, 31);
+         border-radius: 10px;
+         padding: 10px;
+         color: yellow;
+         font-family: sans-serif;
+     }
+     .aa{
+         text-align: center;
+     }*/
+        </style>
+    </head>
+    <body>
+
+        <h1 class="tabi"><img src="birth/toop.jpg" class="toop">Happy Birthday My Tabi
+        <i class="fas fa-birthday-cake"></i>
+    </h1>
+   
+        <div class="boy">
+            <h3 class="heart">Birthday Boy &hearts;</h3>
+            <img src="birth/pics2.jpg" class="pics">
+        </div>
+        <div class="boy">
+            <h3 class="heart">About Tabi</h3>
+            <table>
+                <tr class="born">
+                    <td>Name:</td>
+                    <td>Choi Seung hyun</td>	
+
+                </tr>
+                <tr class="born">
+        
+        <td>Date of Birth<i class="fas fa-birthday-cake"></i>:</td>
+                    <td> November 4, 1987</td>
+                </tr>
+                <tr class="born">
+                    <td>Country:</td>
+                    <td>Seoul, South Korea</td>
+                    </tr>
+            </table>
+                <img src="birth/happy.jpg" class="happy">
+        </div>
+        <div class="boy">
+            <h3 class="heart">Birthday Boy &hearts;</h3>
+            <img src="birth/pics1.jpg" class="pics">
+
+        </div>
+        <br>
+        <br>
+        <div class="title">Happy Birthday</div>
+
+        <div class="name">Choi Seung Hyun &hearts;</div>
+            <br>
+            <div class="wrapper">
+                <div class="img-area">
+                    <div class="single img-one">
+                        <img src="birth/aa.jpg" alt="" class="imges">
+                    </div>
+                    <div class="single img-two">
+                        <img src="birth/bb.jpg" alt="" class="imges">
+                    </div>
+                    <div class="single img-three">
+                        <img src="birth/topp.jpg" alt="" class="imges">
+                    </div>
+                    <div class="single img-four">
+                        <img src="birth/twitter.jpg" alt="" class="imges">
+                    </div>
+                    <div class="single img-five">
+                        <img src="birth/top.jpg" alt="" class="imges">
+                    </div>
+                    <div class="single img-six">
+                        <img src="birth/original.jpg" alt="" class="imges">
+                    </div>
+                </div>
+            </div>
+        <br>
+        <table align="center">
+            <tr>
+                <td><video controls="">
+                    <source src="birth/three.mp4" type="video/mp4">
+                </video>
+            </td>
+                <td><video controls="">
+                    <source src="birth/one.mp4" type="video/mp4">
+                </video>
+            </td>
+                    <td><video controls="">
+                        <source src="birth/two.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+        </table>
+        <div class="love">I Love You So Much &hearts;</div>
+
+       <p class="copy"><a href="#" class="link">&copy; Choi Seung Hlaing(H4)</a></p>
+
+    </body>
+</html>
